@@ -33,6 +33,7 @@ Table of Contents
   * [System Features](#system-features)
     * 4.1 [System Feature 1](#41-system-feature-1)
     * 4.2 [System Feature 2 (and so on)](#42-system-feature-2-and-so-on)
+    * 4.3 [User can create a sticky](#43-user-can-create-a-sticky)
   * [Other Nonfunctional Requirements](#other-nonfunctional-requirements)
     * 5.1 [Performance Requirements](#51-performance-requirements)
     * 5.2 [Safety Requirements](#52-safety-requirements)
@@ -89,6 +90,9 @@ Describe the logical characteristics of each interface between the software prod
 Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.
 ### 3.3 Software Interfaces
 Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.
+
+* Interfaces with: Sticky service MikesStickies
+
 ### 3.4 Communications Interfaces
 Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.
 ## System Features
@@ -105,6 +109,10 @@ Don’t really say “System Feature 1.” State the feature name in just a few 
  Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.
 
 ### 4.2 System Feature 2 (and so on)
+
+### 4.3 User can create sticky
+
+Here's some of the behavior or whatever.
 
 ## Other Nonfunctional Requirements
 ### 5.1 Performance Requirements
